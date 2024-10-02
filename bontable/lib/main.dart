@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'BonTable',
       debugShowCheckedModeBanner: false,
-      initialRoute: '/',
+      initialRoute: '/landing',
       routes: {
         '/landing': (context) => const LandingScreen(),
       },
